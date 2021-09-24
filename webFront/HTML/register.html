@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrierung</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../CSS/footer.css">
+
+</head>
+<body>
+<div id="nav-bar">Navigation</div>
+
+<h1>Neue Kundenregistrierung</h1>
+
+<form action="register.html" method ="GET">
+    <div>
+        <label for="salutation">Anrede</label>
+            <select id="salutation" name="salutation">
+        <option value="0">Frau</option>
+        <option value="1">Herr</option>
+        <option value="2">Andere</option>
+            </select>
+    </div>
+    <div>
+  <label for="email">E-Mail</label>
+  <input type="email" id="email" name="email" placeholder="Deine E-Mail-Adresse" required>
+    </div>
+    <div>
+  <label for="username">Benutzername</label>
+  <input type="text" id="username" name="username">
+    </div>
+    <div>
+        <label for="password">Passwort</label>
+        <input type="password" id="password" name="password">
+    </div>
+
+    <div>
+        <label for="acceptPrivacyPolicy"></label>
+            <input type ="checkbox" id="acceptPrivacyPolicy" name="acceptPrivatePolicy" required>
+        Hiermit akzeptiere ich die
+        <a href="privatePolicy.html">Datenschutzbestimmungen.</a>
+    </div>
+    <div>
+        <label for="newsletterBestellen"></label>
+        <input type ="checkbox" id="newsletterBestellen" name="newsletterBestellen" required>
+        Ja, ich möchte gerne über Angebote und Neuigkeiten per Newsletter informiert werden.
+    </div>
+    <div>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </div>
+</form>
+<!--Scripts:-->
+<div class="footer">
+    <div id="footer">Navigation</div>
+</div>
+<script src=../Javascript/footer.js> </script>
+<script src = ../Javascript/navigation.js></script>
+</body>
+</html>

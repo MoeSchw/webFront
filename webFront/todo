@@ -1,0 +1,38 @@
+Sie müssen sich ein Konzept für Ihren Webshop überlegt haben
+Kategorien min. 3
+Produkte min. 2 Produkte pro Kategorie
+Sie müssen 5 Seiten umsetzen:
+Home (leer nur Navigation)
+Impressum (mit Daten)
+Hilfe (mit Daten)
+Login (Formular)
+Registrierung (Formular)
+Sie müssen eine Navigation umsetzen für alle Seiten:
+Links zu Home (Logo kann noch Platzhalter sein), Login, Registrierung
+Sie haben einen Footer:
+Link zum Impressum
+Link zur Hilfeseite
+Sie müssen für alle Seiten Bootstrap zum stylen verwenden.
+Alle Seiten müssen responsiv für Smartphones, Tablets und Desktop Geräte sein
+Ihr Webshop muss "mobile first" erstellt sein
+
+--> figma.com für design
+-->miro.com same difference
+(Toni: Ich brauch ne Maus für mein Surface)
+
+
+left to do:
+Sie haben einen Footer:
+Link zum Impressum
+Link zur Hilfeseite
+
+Sie müssen für alle Seiten Bootstrap zum stylen verwenden.
+
+
+in navigation bar: (Logo kann noch Platzhalter sein)
+
+
+// logo in header
+// navbar sandwich
+// form design (login, register)
+// grid system (mobile 1st)
